@@ -5,7 +5,7 @@
     <link>https://xrpai.github.io/watchdesk/</link>
     <description>The morning brief for people who move freight: rates, service advisories, port congestion, regulatory. Published 07:17 ET, every claim cited.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:07:47 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:08:25 +0000</lastBuildDate>
     <atom:link href="https://xrpai.github.io/watchdesk/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Triple 14 — Sunday, September 13, 2026</title>
@@ -16,12 +16,12 @@
       <description>Week 35 (ending Sept. 5) U.S. volume came in at 533,545 carloads and intermodal units, up 13.8% year over year — carloads 234,397 (+8.9%), intermodal 299,148 (+18.0%) [1][2]. Read the weekly print…</description>
     </item>
     <item>
-      <title>Triple 14 — Saturday, September 12, 2026</title>
+      <title>Triple 14 — Sunday, September 13, 2026</title>
       <link>https://xrpai.github.io/watchdesk/briefs/ports-2026-09-14.md</link>
       <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/ports-2026-09-14.md</guid>
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>ports</category>
-      <description>No verified port-level operating data cleared the wire this cycle: there are no dwell times, anchorage or berth counts, chassis-pool utilization figures, or vessel schedule-reliability numbers for…</description>
+      <description>No port-level data cleared verification this cycle: nothing in the fetched source set carries dwell times, vessel counts, chassis availability, or gate/berth throughput for LA/Long Beach, NY/NJ,…</description>
     </item>
     <item>
       <title>Daily Rail Intel Brief — North America</title>
