@@ -5,7 +5,7 @@
     <link>https://xrpai.github.io/watchdesk/</link>
     <description>The morning brief for people who move freight: rates, service advisories, port congestion, regulatory. Published 07:17 ET, every claim cited.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:09:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:17:54 +0000</lastBuildDate>
     <atom:link href="https://xrpai.github.io/watchdesk/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Triple 14 — Monday, September 14, 2026</title>
@@ -24,12 +24,12 @@
       <description>No port-side data cleared verification this cycle. The only sourced operational intel available today is the rail/intermodal leg: U.S. rail traffic for the week ending September 5 (week 35) hit…</description>
     </item>
     <item>
-      <title>Daily Rail Intel Brief — North America</title>
+      <title>North American Rail Service Disruption Brief</title>
       <link>https://xrpai.github.io/watchdesk/briefs/disruptions-2026-09-14.md</link>
       <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/disruptions-2026-09-14.md</guid>
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>disruptions</category>
-      <description>No corridor-level service advisory is supported by the sources fetched this cycle. The available material is aggregate weekly and monthly traffic data plus the Surface Transportation Board's rail…</description>
+      <description>No corridor-level service status can be published to the VERIFY standard this cycle. The available source set consists entirely of Association of American Railroads weekly volume releases and…</description>
     </item>
     <item>
       <title>Triple 14 — Thursday, September 10, 2026</title>

@@ -1,47 +1,56 @@
-# Daily Rail Intel Brief — North America
-**Saturday, September 12, 2026**
+# North American Rail Service Disruption Brief
+**Sunday, September 13, 2026 — 14-corridor advisory cycle**
 
 ## Bottom line
 
-No corridor-level service advisory is supported by the sources fetched this cycle. The available material is aggregate weekly and monthly traffic data plus the Surface Transportation Board's rail service data landing page — instruments that measure volume, not disruption. Accordingly, the fourteen corridors below are reported as **status unverified**, not as clear. Network throughput for the week ending September 5 was running well above last year, which is inconsistent with a large-scale network outage but is not evidence about any individual corridor.
+No corridor-level service status can be published to the VERIFY standard this cycle. The available source set consists entirely of Association of American Railroads weekly volume releases and trade-press aggregations of them; none reports weather, derailment, labor, maintenance-window, or port-congestion conditions for any of the fourteen named corridors [1][2][3][4]. Critically, no corridor can be marked "no advisories" either — the absence of an advisory in a traffic-statistics release is not evidence that no advisory exists. The failure is on the input side, not the analysis side.
 
 ## Service advisories
 
-- **Vancouver** — Status unverified. No advisory in fetched sources this cycle; carrier and port notices not retrieved [1].
-- **Calgary** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
-- **Regina** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
-- **Winnipeg** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
-- **Toronto** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
-- **Montreal** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
-- **Chicago** — Status unverified. The STB reports it has published data collected from the Belt Railway of Chicago in connection with the Board's August 3, 2026 letter; the page states only that data was collected and does not characterize a service problem. Current-week gateway metrics (yard car counts, trains held short, CTCO alert level) not retrieved [1].
-- **LA/LB** — Status unverified. No terminal or rail-dwell advisory in fetched sources; record August volumes at Los Angeles and Long Beach are noted in trade headline listings but do not establish congestion [2].
-- **Kansas City** — Status unverified. No advisory in fetched sources this cycle [1].
-- **Memphis** — Status unverified. No advisory in fetched sources this cycle [1].
-- **New Orleans** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
-- **Houston** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
-- **Savannah** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
-- **NY/NJ** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
+- **Vancouver** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Calgary** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Regina** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Winnipeg** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Toronto** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Montreal** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Chicago** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **LA/LB** — Not established. Index-level headlines report the Port of Long Beach's best August on record and a record three-month run at the Port of Los Angeles [2][4]; the fetched text describes neither berth nor rail-ramp congestion, dwell times, nor terminal alerts, and is not convertible to a service status.
+- **Kansas City** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Memphis** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **New Orleans** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Houston** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **Savannah** — Not established. No carrier, port, or hazard-product source fetched this cycle.
+- **NY/NJ** — Not established. No carrier, port, or hazard-product source fetched this cycle.
 
-## Network context
+## Network throughput (verified, lagging)
 
-For the week ending September 5, 2026, total U.S. rail traffic was 533,545 carloads and intermodal units, up 13.8% year over year — carloads up 8.9% to 234,397 and intermodal up 18.0% to 299,148 [3]. North American volume across nine reporting U.S., Canadian and Mexican railroads totaled 727,511 units, up 12.4%. Canadian railroads reported 94,927 carloads (up 10.4%) and 72,202 intermodal units (up 8.9%); Mexican carloads fell 7.4% to 12,108 [3]. Nine of ten commodity groups posted gains; coal was the sole decliner, down 3,547 carloads to 58,037 [3].
+What the sources do establish is volume, not service condition. For the week ending September 5, 2026 (week 35), U.S. rail traffic totaled 533,545 carloads and intermodal units, up 13.8% year over year — carloads at 234,397 (+8.9%) and intermodal at 299,148 (+18.0%) [1][2]. Nine of ten carload commodity groups gained, led by metallic ores and metals (+4,859 to 23,122), grain (+4,373 to 22,509), and chemicals (+3,848 to 33,653). Coal was the sole decliner, down 3,547 to 58,037 [1][2].
 
-Monthly data runs the same direction: U.S. railroads averaged nearly 297,000 weekly intermodal containers and trailers in August 2026, up 4.4% annually and a new monthly record, exceeding June 2026 [2].
+Canadian railroads moved 94,927 carloads (+10.4%) and 72,202 intermodal units (+8.9%) in week 35, but cumulative 35-week Canadian volume is up only 1.5% to 5,759,324 units — a materially weaker year-to-date trend than the U.S. figure of +3.6% [1][3]. Sources are consistent on every figure; there is no numerical disagreement across [1], [2], and [3].
 
-## Watch items
+These are September 9–10 releases and are four days stale as of today. Absent incident granularity, this data is useful only retrospectively — to confirm whether a disruption eventually surfaces as a carload dip.
 
-- **Belt Railway of Chicago data collection** tied to the STB's August 3, 2026 letter — a Chicago gateway signal to track, not yet an advisory [1].
-- **Carrier data corrections on file** — a CN grain-metric correction filed August 4, 2026 for report date July 29, 2026, and an NS correction filed July 9, 2026 to the trains-held-by-cause item for report date July 8, 2026 [1].
-- **U.S.–Canada tariff escalation**, reflected in current trade headline listings, as demand-side context for the Canadian corridors; no operational effect established in fetched sources [2].
+## Maintenance signals
 
-## Coverage gap
+No material development in the fetched sources this cycle. An index listing references a completed Norfolk Southern bridge replacement at Richmond and a Washington state port rail project beginning in fall [3], but neither item is dated, scoped, or located within the fourteen requested corridors in the fetched text.
 
-To file a verified per-corridor brief, the following feeds are required and were not retrieved this cycle: carrier customer-advisory and embargo notices (CPKC, CN, BNSF, UP, CSX, NS) for weather, derailment and maintenance-window items; the current week's individual STB Class I filings and the Chicago gateway sheet for dwell, cars held by cause and CTCO alert level [1]; FRA and TSB incident notifications; port and terminal notices for LA/LB, Savannah, NY/NJ, Houston, New Orleans and Vancouver; and labor notices for corridors with open agreements. Machine-readable STB Open Data Portal series are labeled beta and carry an accuracy warning, and should be treated as secondary to the filed weekly reports for operational reads [1].
+## Source-gap remediation
+
+AAR weekly traffic data is the wrong instrument for this brief: it is a lagging, aggregated volume measure with no geographic or incident granularity. Populating the fourteen-corridor table requires the following primary feeds:
+
+- **Carrier advisories** — CN, CPKC, BNSF, UP, CSX, NS, KCSM service alert feeds for weather embargoes, derailments, and planned maintenance windows.
+- **Port and terminal alerts** — Vancouver Fraser, Prince Rupert, POLA/POLB, Houston, Savannah, PANYNJ for congestion and rail-ramp dwell.
+- **Derailment confirmation** — FRA accident database and NTSB releases.
+- **Corridor weather** — Environment and Climate Change Canada and NWS hazard products.
+- **Labor status** — Surface Transportation Board, National Mediation Board, and Canada Industrial Relations Board dockets, plus union bulletins.
+
+Three additional results in the collection (MacroMicro, Railway Age, and an MSN syndication) returned CAPTCHA or empty cached pages and are excluded as unverifiable.
 
 ---
 
 **Sources**
 
-1. Rail Service Data — Surface Transportation Board — https://www.stb.gov/reports-data/rail-service-data/
-2. U.S. rail carload and intermodal momentum continues in August, reports AAR — *Logistics Management*, Sep 10, 2026 — https://www.logisticsmgmt.com/article/u.s_rail_carload_and_intermodal_momentum_continues_in_august_reports_aar
-3. AAR Reports Weekly Rail Traffic for the Week Ending September 5, 2026 — Association of American Railroads — https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-september-5-2026/
+1. *AAR Reports Weekly Rail Traffic for the Week Ending September 5, 2026* — Railpace Newsmagazine, September 9, 2026 — https://railpace.com/aar-reports-weekly-rail-traffic-for-the-week-ending-september-5-2026/
+2. *AAR reports rail traffic for the week ending September 05, 2026* — American Journal of Transportation, September 10, 2026 — https://www.ajot.com/news/aar-reports-rail-traffic-for-the-week-ending-september-05-2026
+3. *US freight railroads logged increased traffic in week 35* — Progressive Railroading, September 10, 2026 — https://www.progressiverailroading.com/intermodal/news/US-freight-railroads-logged-increased-traffic-in-week-35--77719
+4. *U.S. rail carload and intermodal momentum continues in August, reports AAR* — Logistics Management, September 10, 2026 — https://www.logisticsmgmt.com/article/u.s_rail_carload_and_intermodal_momentum_continues_in_august_reports_aar
