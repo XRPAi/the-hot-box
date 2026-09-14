@@ -5,7 +5,7 @@
     <link>https://xrpai.github.io/watchdesk/</link>
     <description>The morning brief for people who move freight: rates, service advisories, port congestion, regulatory. Published 07:17 ET, every claim cited.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:08:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:09:19 +0000</lastBuildDate>
     <atom:link href="https://xrpai.github.io/watchdesk/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Triple 14 — Monday, September 14, 2026</title>
@@ -16,12 +16,12 @@
       <description>The most recent AAR weekly data on the board is week 35 (ending Sept. 5): 533,545 total U.S. carloads and intermodal units, up 13.8% year over year, with intermodal at 299,148 units (+18.0%) and…</description>
     </item>
     <item>
-      <title>Triple 14 — Sunday, September 13, 2026</title>
+      <title>Triple 14 — Monday, September 14, 2026</title>
       <link>https://xrpai.github.io/watchdesk/briefs/ports-2026-09-14.md</link>
       <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/ports-2026-09-14.md</guid>
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>ports</category>
-      <description>No port-level data cleared verification this cycle: nothing in the fetched source set carries dwell times, vessel counts, chassis availability, or gate/berth throughput for LA/Long Beach, NY/NJ,…</description>
+      <description>No port-side data cleared verification this cycle. The only sourced operational intel available today is the rail/intermodal leg: U.S. rail traffic for the week ending September 5 (week 35) hit…</description>
     </item>
     <item>
       <title>Daily Rail Intel Brief — North America</title>
