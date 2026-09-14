@@ -1,48 +1,51 @@
-**NORTH AMERICAN RAIL SERVICE DISRUPTION BRIEF**
-**Thursday, 10 September 2026**
+# Daily Rail Intel Brief — North America
+**Friday, 11 September 2026 | Corridors: Vancouver, Calgary, Regina, Winnipeg, Toronto, Montreal, Chicago, LA/LB, Kansas City, Memphis, New Orleans, Houston, Savannah, NY/NJ**
 
-**Bottom line: the available source set does not support a verified 14-corridor disruption brief today.** Only Chicago returned retrievable, dated advisory content — Metra commuter lines showing no alerts [1]. For the remaining 13 corridors, no railroad, port, or transit advisory page in the collected set returned usable status content. Those corridors are marked **unverified**, not "no advisories": certifying an absence without a source would be an invented claim, and the requested verification standard does not permit it.
+## Bottom line
+
+No active service advisory for 11 September 2026 could be verified against a fetched source for any of the fourteen corridors. Every corridor below is therefore logged as **no advisories (unverified)** — an absence of evidence, not a confirmed all-clear. Readers should treat this cycle's corridor line as a null result pending the carrier, port, and regulator feeds listed under *Data gaps*, not as a clean board.
+
+## Service advisories
+
+- **Vancouver** — no advisories (unverified). No carrier or port-terminal feed fetched this cycle.
+- **Calgary** — no advisories (unverified). No carrier feed fetched this cycle.
+- **Regina** — no advisories (unverified). No carrier feed fetched this cycle.
+- **Winnipeg** — no advisories (unverified). No carrier feed fetched this cycle.
+- **Toronto** — no advisories (unverified). No carrier or commuter-host feed fetched this cycle.
+- **Montreal** — no advisories (unverified). No carrier or port feed fetched this cycle.
+- **Chicago** — no advisories (unverified). No carrier or terminal feed fetched this cycle.
+- **LA/LB** — no advisories (unverified). No port or terminal dwell data fetched this cycle.
+- **Kansas City** — no advisories (unverified). No carrier feed fetched this cycle.
+- **Memphis** — no advisories (unverified). No carrier feed fetched this cycle.
+- **New Orleans** — no advisories (unverified). No carrier or port feed fetched this cycle.
+- **Houston** — no advisories (unverified). Closed UP incident on the Texas corridor noted under *Background* [1]; no active advisory confirmed.
+- **Savannah** — no advisories (unverified). No carrier or port feed fetched this cycle.
+- **NY/NJ** — no advisories (unverified). No carrier or port feed fetched this cycle.
+
+## Background and structural risk (not active advisories)
+
+**Texas / Houston corridor — closed incident, federal finding.** A Union Pacific train of roughly 240 cars derailed in downtown Austin on 23 April 2026 near West Third and Bowie Streets at about 15 mph, causing roughly $1 million in track and equipment damage with no injuries. A Federal Railroad Administration report dated 29 July 2026 found UP had allowed the train to continue operating after a locomotive failure, and that hazardous materials aboard created spill potential [1]. This is a post-hoc regulatory finding on UP territory, not a live restriction as of today.
+
+**Western Canadian corridors — planning signals.** CN and CPKC published 2026–2027 grain service plans, reported 3 August 2026, setting out grain market outlooks and service delivery commitments for the crop year [2]. These plans are the customary vehicle through which Vancouver, Calgary, Regina and Winnipeg capacity pressure first becomes visible; the fetched text states no specific constraint, embargo, or car-supply shortfall. Separately, on 4 June 2026 BHP signed approximately four-year transportation agreements with both CN and CPKC to move Jansen potash to Westshore Terminals in Vancouver via the dual-access Jansen Access Spur, citing supply chain reliability and delivery flexibility as the rationale [3].
+
+**Routing-risk note.** Single-carrier routing concentrates exposure in one network's labor and weather profile. The value of dual access is demonstrated by the August 2024 CN/CPKC work stoppage, which locked out more than 9,000 workers, suspended freight, and affected 30,000 commuters across Toronto, Montreal and Vancouver — including GO Transit's Milton line and Hamilton GO station (about 8,100 riders), TransLink's West Coast Express, Exo's Vaudreuil-Hudson, Saint-Jérôme and Candiac lines, and Via Rail's Sudbury–White River service [4]. Traffic resumed 26 August 2024 following a Canada Industrial Relations Board order, with CPKC then forecasting several weeks of network recovery [5]. CPKC-specific stoppage idled CPKC-owned track while CN traffic restarted first [4][5]. Nothing in the fetched sources indicates a comparable labor action is live in 2026. Dual access of the BHP type fits high-volume, single-origin bulk exporters; it is not generally available to intermodal shippers.
+
+## Data gaps — required to clear the unverified flags
+
+The following feeds were not retrieved this cycle and are prerequisites for corridor-level confidence:
+
+- Carrier customer service advisory feeds (CN, CPKC, UP, BNSF, CSX, NS, KCS) — the publication point for maintenance windows, embargoes, and weather-related service interruptions.
+- Port authority and terminal dashboards for LA/Long Beach, NY/NJ, Savannah, Houston, New Orleans, Vancouver and Montreal — congestion, dwell, and rail-car availability.
+- FRA incident database and NTSB feed — derailments in the trailing 72 hours.
+- National Weather Service and Environment Canada warnings along the named routes.
+- Amtrak, Metra, GO Transit, Exo and TransLink alert pages — passenger-side symptoms of freight-host problems.
 
 ---
 
-**Service advisories**
+## Sources
 
-- **Vancouver** — Unverified. No CN, CPKC, Port of Vancouver, or terminal advisory source retrieved; status cannot be confirmed in either direction.
-- **Calgary** — Unverified. No CPKC network advisory or Alberta weather/maintenance source retrieved.
-- **Regina** — Unverified. No source retrieved covering CPKC or CN prairie operations for 2026-09-10.
-- **Winnipeg** — Unverified. No source retrieved; the one intermodal carrier service-updates page in the collected set that lists a Winnipeg terminal resolved to a "Page Not Found" error.
-- **Toronto** — Unverified. No CN/CPKC GTA advisory, Metrolinx, or Vaughan/Brampton terminal source retrieved.
-- **Montreal** — Unverified. No CN advisory feed, Port of Montreal, or Taschereau/Southwark terminal source retrieved.
-- **Chicago** — Commuter rail: Metra's service-alerts page showed "No Alerts" across all listed lines, including Union Pacific West, Milwaukee District West, UP Northwest, and North Central Service, at time of retrieval; the page carries only a ©2026 footer and no timestamp [1]. Freight and interchange status (CPKC, CN, UP, BNSF, CSX, NS, Belt Railway) unverified — no source. Structural note, not an outage: a July 2026 UP–CN memorandum would give UP expanded operating rights over CN's Elgin, Joliet & Eastern corridor around Chicago [2].
-- **LA/LB** — Unverified. No port congestion, on-dock rail, or Alameda Corridor source retrieved.
-- **Kansas City** — Unverified for service. Structural note: under binding UP–CN memoranda dated 22 July 2026, CN would gain access to UP's Neff Yard, rights to serve customers between St. Louis and Kansas City, and NS's ownership interests in the Kansas City Terminal Railway [2]. No operational advisory source retrieved.
-- **Memphis** — Unverified for service. Structural note: the same agreement would give CN new rights over UP lines between Memphis and Eagle Pass, Texas, for Canada–Mexico traffic [2]. No operational advisory source retrieved.
-- **New Orleans** — Unverified. No source retrieved; no hurricane or embargo advisory appears in the set despite peak Atlantic season.
-- **Houston** — Unverified. No UP, BNSF, or Port Houston advisory source retrieved.
-- **Savannah** — Unverified. No Georgia Ports Authority, Mason Mega Rail, CSX, or NS source retrieved.
-- **NY/NJ** — Unverified. No PANYNJ, ExpressRail, CSX, or NS advisory source retrieved.
-
----
-
-**Why the coverage gap**
-
-None of the primary advisory channels a brief of this type depends on — CN and CPKC customer service updates, UP and BNSF embargo and service-alert notices, CSX and NS network bulletins, and port authority terminal-status pages — were present in usable form. The two carrier-facing pages fetched returned no advisory content: Union Pacific's Customer News page rendered as navigation chrome only, its visible index entry pointing to an Aug. 27, 2026 customer letter concerned with the UP–NS merger and CN's public claims rather than with network conditions [3]; the intermodal service-updates page returned a 404. A CSX tool page in the set covers interchange junction selection, not disruptions. The absence of advisories here is evidence about the source collection, not about the network.
-
-**Context, not same-day disruption**
-
-On the Canadian grain corridors feeding Vancouver and the prairie origins at Regina, Winnipeg, and Calgary, CN and CPKC published their 2026–2027 crop-year grain plans on or before Aug. 3, 2026, with CN reported to have posted ten months of record grain movement in the 2025–26 crop year [4]. Grain plans are forward-looking capacity commitments and are not a substitute for a service advisory, but they are the document to pull if prairie car-supply performance becomes the operative question later this fall.
-
-The live variable across Chicago, Kansas City, and Memphis this year is regulatory rather than meteorological. UP and CN announced two binding memoranda on 22 July 2026 tied to the proposed UP–Norfolk Southern merger, under which CN gains access at points where Class I options would fall from two to one or three to two, and agrees not to oppose the transaction [2]. BNSF objected in a 24 July 2026 customer letter, arguing the agreements do not resolve competition concerns, that the combined carrier would control roughly half the U.S. freight rail market, and citing a filing by 23 Democratic senators urging rigorous Surface Transportation Board review [2]. The sources do not conflict on facts, only in posture: UP and CN frame the memoranda as remedies, BNSF frames them as proof the merger is unnecessary [2]. None of this generates an advisory today, but gateway fluidity at Chicago, Kansas City, and East St. Louis is the item to watch if the STB timeline moves.
-
-**Required to close the gap for the next cycle**
-
-Direct access to CN Service Updates; CPKC Customer Advisories; UP embargo and service-alert feeds; BNSF Service Advisories; CSX and NS customer bulletins; FRA and TSB incident feeds for derailment confirmation; National Weather Service and Environment Canada warnings along each route; and terminal-status pages for Vancouver, Prince Rupert, LA/LB, Savannah, Houston, and NY/NJ. Absent those, any per-corridor "no advisories" line would be an unsupported assertion.
-
----
-
-**Sources**
-
-1. *Service Alerts*, Metra — https://ridertools.metrarail.com/es/riding-metra/service-updates
-2. *BNSF questions need for UP-NS merger after CN deal* (July 27, 2026), RailMarket — https://railmarket.com/news/business/60496-bnsf-questions-need-for-up-ns-merger-after-cn-deal
-3. *Customer News*, Union Pacific — https://www.up.com/announcements/customer-news
-4. *CN, CPKC publish grain service plans for next crop year* (Aug. 3, 2026), Progressive Railroading — https://www.progressiverailroading.com/class_is/news/CN-CPKC-publish-grain-service-plans-for-next-crop-year--77470
+1. *Federal report suggests Austin train derailment risked hazardous-materials spill* (2026-07-29) — https://www.statesman.com/business/transportation/article/union-pacific-austin-derailment-report-22362557.php
+2. *CN, CPKC publish grain service plans for next crop year* (2026-08-03) — https://www.progressiverailroading.com/class_is/news/CN-CPKC-publish-grain-service-plans-for-next-crop-year--77470
+3. *BHP Announces Rail Transportation Agreements with CN and CPKC to Bring Jansen Potash to Global Customers* (2026-06-04) — https://www.bnnbloomberg.ca/press-releases/2026/06/04/bhp-announces-rail-transportation-agreements-with-cn-and-cpkc-to-bring-jansen-potash-to-global-customers/
+4. *Disruptions to major commuter lines in GTA, Montreal and Vancouver continue as CN, CPKC await word on arbitration* (2024-08-23) — https://www.theglobeandmail.com/canada/article-disruptions-to-major-commuter-lines-in-gta-montreal-and-vancouver/
+5. *CN, CPKC resume railway service as work stoppage ends* (2024-08-26) — https://barrie360.com/cn-cpkc-work-stoppage-ends/
