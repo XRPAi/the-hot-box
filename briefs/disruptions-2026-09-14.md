@@ -1,51 +1,47 @@
 # Daily Rail Intel Brief — North America
-**Friday, 11 September 2026 | Corridors: Vancouver, Calgary, Regina, Winnipeg, Toronto, Montreal, Chicago, LA/LB, Kansas City, Memphis, New Orleans, Houston, Savannah, NY/NJ**
+**Saturday, September 12, 2026**
 
 ## Bottom line
 
-No active service advisory for 11 September 2026 could be verified against a fetched source for any of the fourteen corridors. Every corridor below is therefore logged as **no advisories (unverified)** — an absence of evidence, not a confirmed all-clear. Readers should treat this cycle's corridor line as a null result pending the carrier, port, and regulator feeds listed under *Data gaps*, not as a clean board.
+No corridor-level service advisory is supported by the sources fetched this cycle. The available material is aggregate weekly and monthly traffic data plus the Surface Transportation Board's rail service data landing page — instruments that measure volume, not disruption. Accordingly, the fourteen corridors below are reported as **status unverified**, not as clear. Network throughput for the week ending September 5 was running well above last year, which is inconsistent with a large-scale network outage but is not evidence about any individual corridor.
 
 ## Service advisories
 
-- **Vancouver** — no advisories (unverified). No carrier or port-terminal feed fetched this cycle.
-- **Calgary** — no advisories (unverified). No carrier feed fetched this cycle.
-- **Regina** — no advisories (unverified). No carrier feed fetched this cycle.
-- **Winnipeg** — no advisories (unverified). No carrier feed fetched this cycle.
-- **Toronto** — no advisories (unverified). No carrier or commuter-host feed fetched this cycle.
-- **Montreal** — no advisories (unverified). No carrier or port feed fetched this cycle.
-- **Chicago** — no advisories (unverified). No carrier or terminal feed fetched this cycle.
-- **LA/LB** — no advisories (unverified). No port or terminal dwell data fetched this cycle.
-- **Kansas City** — no advisories (unverified). No carrier feed fetched this cycle.
-- **Memphis** — no advisories (unverified). No carrier feed fetched this cycle.
-- **New Orleans** — no advisories (unverified). No carrier or port feed fetched this cycle.
-- **Houston** — no advisories (unverified). Closed UP incident on the Texas corridor noted under *Background* [1]; no active advisory confirmed.
-- **Savannah** — no advisories (unverified). No carrier or port feed fetched this cycle.
-- **NY/NJ** — no advisories (unverified). No carrier or port feed fetched this cycle.
+- **Vancouver** — Status unverified. No advisory in fetched sources this cycle; carrier and port notices not retrieved [1].
+- **Calgary** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
+- **Regina** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
+- **Winnipeg** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
+- **Toronto** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
+- **Montreal** — Status unverified. No advisory in fetched sources this cycle; carrier notices not retrieved [1].
+- **Chicago** — Status unverified. The STB reports it has published data collected from the Belt Railway of Chicago in connection with the Board's August 3, 2026 letter; the page states only that data was collected and does not characterize a service problem. Current-week gateway metrics (yard car counts, trains held short, CTCO alert level) not retrieved [1].
+- **LA/LB** — Status unverified. No terminal or rail-dwell advisory in fetched sources; record August volumes at Los Angeles and Long Beach are noted in trade headline listings but do not establish congestion [2].
+- **Kansas City** — Status unverified. No advisory in fetched sources this cycle [1].
+- **Memphis** — Status unverified. No advisory in fetched sources this cycle [1].
+- **New Orleans** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
+- **Houston** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
+- **Savannah** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
+- **NY/NJ** — Status unverified. No advisory in fetched sources this cycle; port notices not retrieved [1].
 
-## Background and structural risk (not active advisories)
+## Network context
 
-**Texas / Houston corridor — closed incident, federal finding.** A Union Pacific train of roughly 240 cars derailed in downtown Austin on 23 April 2026 near West Third and Bowie Streets at about 15 mph, causing roughly $1 million in track and equipment damage with no injuries. A Federal Railroad Administration report dated 29 July 2026 found UP had allowed the train to continue operating after a locomotive failure, and that hazardous materials aboard created spill potential [1]. This is a post-hoc regulatory finding on UP territory, not a live restriction as of today.
+For the week ending September 5, 2026, total U.S. rail traffic was 533,545 carloads and intermodal units, up 13.8% year over year — carloads up 8.9% to 234,397 and intermodal up 18.0% to 299,148 [3]. North American volume across nine reporting U.S., Canadian and Mexican railroads totaled 727,511 units, up 12.4%. Canadian railroads reported 94,927 carloads (up 10.4%) and 72,202 intermodal units (up 8.9%); Mexican carloads fell 7.4% to 12,108 [3]. Nine of ten commodity groups posted gains; coal was the sole decliner, down 3,547 carloads to 58,037 [3].
 
-**Western Canadian corridors — planning signals.** CN and CPKC published 2026–2027 grain service plans, reported 3 August 2026, setting out grain market outlooks and service delivery commitments for the crop year [2]. These plans are the customary vehicle through which Vancouver, Calgary, Regina and Winnipeg capacity pressure first becomes visible; the fetched text states no specific constraint, embargo, or car-supply shortfall. Separately, on 4 June 2026 BHP signed approximately four-year transportation agreements with both CN and CPKC to move Jansen potash to Westshore Terminals in Vancouver via the dual-access Jansen Access Spur, citing supply chain reliability and delivery flexibility as the rationale [3].
+Monthly data runs the same direction: U.S. railroads averaged nearly 297,000 weekly intermodal containers and trailers in August 2026, up 4.4% annually and a new monthly record, exceeding June 2026 [2].
 
-**Routing-risk note.** Single-carrier routing concentrates exposure in one network's labor and weather profile. The value of dual access is demonstrated by the August 2024 CN/CPKC work stoppage, which locked out more than 9,000 workers, suspended freight, and affected 30,000 commuters across Toronto, Montreal and Vancouver — including GO Transit's Milton line and Hamilton GO station (about 8,100 riders), TransLink's West Coast Express, Exo's Vaudreuil-Hudson, Saint-Jérôme and Candiac lines, and Via Rail's Sudbury–White River service [4]. Traffic resumed 26 August 2024 following a Canada Industrial Relations Board order, with CPKC then forecasting several weeks of network recovery [5]. CPKC-specific stoppage idled CPKC-owned track while CN traffic restarted first [4][5]. Nothing in the fetched sources indicates a comparable labor action is live in 2026. Dual access of the BHP type fits high-volume, single-origin bulk exporters; it is not generally available to intermodal shippers.
+## Watch items
 
-## Data gaps — required to clear the unverified flags
+- **Belt Railway of Chicago data collection** tied to the STB's August 3, 2026 letter — a Chicago gateway signal to track, not yet an advisory [1].
+- **Carrier data corrections on file** — a CN grain-metric correction filed August 4, 2026 for report date July 29, 2026, and an NS correction filed July 9, 2026 to the trains-held-by-cause item for report date July 8, 2026 [1].
+- **U.S.–Canada tariff escalation**, reflected in current trade headline listings, as demand-side context for the Canadian corridors; no operational effect established in fetched sources [2].
 
-The following feeds were not retrieved this cycle and are prerequisites for corridor-level confidence:
+## Coverage gap
 
-- Carrier customer service advisory feeds (CN, CPKC, UP, BNSF, CSX, NS, KCS) — the publication point for maintenance windows, embargoes, and weather-related service interruptions.
-- Port authority and terminal dashboards for LA/Long Beach, NY/NJ, Savannah, Houston, New Orleans, Vancouver and Montreal — congestion, dwell, and rail-car availability.
-- FRA incident database and NTSB feed — derailments in the trailing 72 hours.
-- National Weather Service and Environment Canada warnings along the named routes.
-- Amtrak, Metra, GO Transit, Exo and TransLink alert pages — passenger-side symptoms of freight-host problems.
+To file a verified per-corridor brief, the following feeds are required and were not retrieved this cycle: carrier customer-advisory and embargo notices (CPKC, CN, BNSF, UP, CSX, NS) for weather, derailment and maintenance-window items; the current week's individual STB Class I filings and the Chicago gateway sheet for dwell, cars held by cause and CTCO alert level [1]; FRA and TSB incident notifications; port and terminal notices for LA/LB, Savannah, NY/NJ, Houston, New Orleans and Vancouver; and labor notices for corridors with open agreements. Machine-readable STB Open Data Portal series are labeled beta and carry an accuracy warning, and should be treated as secondary to the filed weekly reports for operational reads [1].
 
 ---
 
-## Sources
+**Sources**
 
-1. *Federal report suggests Austin train derailment risked hazardous-materials spill* (2026-07-29) — https://www.statesman.com/business/transportation/article/union-pacific-austin-derailment-report-22362557.php
-2. *CN, CPKC publish grain service plans for next crop year* (2026-08-03) — https://www.progressiverailroading.com/class_is/news/CN-CPKC-publish-grain-service-plans-for-next-crop-year--77470
-3. *BHP Announces Rail Transportation Agreements with CN and CPKC to Bring Jansen Potash to Global Customers* (2026-06-04) — https://www.bnnbloomberg.ca/press-releases/2026/06/04/bhp-announces-rail-transportation-agreements-with-cn-and-cpkc-to-bring-jansen-potash-to-global-customers/
-4. *Disruptions to major commuter lines in GTA, Montreal and Vancouver continue as CN, CPKC await word on arbitration* (2024-08-23) — https://www.theglobeandmail.com/canada/article-disruptions-to-major-commuter-lines-in-gta-montreal-and-vancouver/
-5. *CN, CPKC resume railway service as work stoppage ends* (2024-08-26) — https://barrie360.com/cn-cpkc-work-stoppage-ends/
+1. Rail Service Data — Surface Transportation Board — https://www.stb.gov/reports-data/rail-service-data/
+2. U.S. rail carload and intermodal momentum continues in August, reports AAR — *Logistics Management*, Sep 10, 2026 — https://www.logisticsmgmt.com/article/u.s_rail_carload_and_intermodal_momentum_continues_in_august_reports_aar
+3. AAR Reports Weekly Rail Traffic for the Week Ending September 5, 2026 — Association of American Railroads — https://www.aar.org/news/aar-reports-weekly-rail-traffic-for-the-week-ending-september-5-2026/

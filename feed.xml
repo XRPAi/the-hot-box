@@ -5,7 +5,7 @@
     <link>https://xrpai.github.io/watchdesk/</link>
     <description>The morning brief for people who move freight: rates, service advisories, port congestion, regulatory. Published 07:17 ET, every claim cited.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 13:07:09 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 13:07:25 +0000</lastBuildDate>
     <atom:link href="https://xrpai.github.io/watchdesk/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Triple 14 — Saturday, September 12, 2026</title>
@@ -29,7 +29,7 @@
       <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/disruptions-2026-09-14.md</guid>
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>disruptions</category>
-      <description>No active service advisory for 11 September 2026 could be verified against a fetched source for any of the fourteen corridors. Every corridor below is therefore logged as **no advisories…</description>
+      <description>No corridor-level service advisory is supported by the sources fetched this cycle. The available material is aggregate weekly and monthly traffic data plus the Surface Transportation Board's rail…</description>
     </item>
     <item>
       <title>Triple 14 — Thursday, September 10, 2026</title>

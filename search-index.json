@@ -32,14 +32,11 @@
     "topic": "disruptions",
     "date": "2026-09-14",
     "title": "Daily Rail Intel Brief \u2014 North America",
-    "excerpt": "No active service advisory for 11 September 2026 could be verified against a fetched source for any of the fourteen corridors. Every corridor below is therefore logged as **no advisories\u2026",
+    "excerpt": "No corridor-level service advisory is supported by the sources fetched this cycle. The available material is aggregate weekly and monthly traffic data plus the Surface Transportation Board's rail\u2026",
     "url": "../briefs/disruptions-2026-09-14.md",
     "status": "verified",
     "sections": [
-      "Friday, 11 September 2026 | Corridors: Vancouver, Calgary, Regina, Winnipeg, Toronto, Montreal, Chicago, LA/LB, Kansas City, Memphis, New Orleans, Houston, Savannah, NY/NJ",
-      "Texas / Houston corridor \u2014 closed incident, federal finding.",
-      "Western Canadian corridors \u2014 planning signals.",
-      "Routing-risk note."
+      "Saturday, September 12, 2026"
     ]
   },
   {
