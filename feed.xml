@@ -5,7 +5,7 @@
     <link>https://xrpai.github.io/watchdesk/</link>
     <description>The morning brief for people who move freight: rates, service advisories, port congestion, regulatory. Published 07:17 ET, every claim cited.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 12:48:10 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 12:48:24 +0000</lastBuildDate>
     <atom:link href="https://xrpai.github.io/watchdesk/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Triple 14 — Wednesday, September 09, 2026</title>
@@ -22,6 +22,14 @@
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>ports</category>
       <description>US port congestion is currently centered on inland rail and equipment constraints rather than vessel queues, with Los Angeles/Long Beach experiencing rising dwell times despite zero ships waiting at…</description>
+    </item>
+    <item>
+      <title>Disruptions</title>
+      <link>https://xrpai.github.io/watchdesk/briefs/disruptions-2026-09-14.md</link>
+      <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/disruptions-2026-09-14.md</guid>
+      <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
+      <category>disruptions</category>
+      <description>- **Vancouver** — no advisories [2]</description>
     </item>
     <item>
       <title>Triple 14 — Thursday, September 10, 2026</title>
