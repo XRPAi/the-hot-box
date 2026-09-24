@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Triple 14 — Daily rail + freight intel</title>
+<title>The Hot Box — Daily rail + freight intel</title>
 <meta name="description" content="Daily rail + freight intel for brokers and shippers. A 90-second read every morning at 07:17 ET — every claim cited, every brief on the record.">
-<link rel="alternate" type="application/rss+xml" title="Triple 14 — daily rail + freight brief" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="The Hot Box — daily rail + freight brief" href="feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -157,7 +157,7 @@
   .moat .note a { color: #cfe0ee; }
 
   /* ── Pricing ─────────────────────────────────────────────────────── */
-  .plans { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; align-items: stretch; }
+  .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.2rem; align-items: stretch; }
   .plan { background: var(--card); border: 1px solid var(--line); border-radius: 4px;
           padding: 1.8rem 1.9rem; display: flex; flex-direction: column; }
   .plan.featured { border-color: var(--rail);
@@ -205,7 +205,7 @@
 <body id="top">
 
 <nav class="nav wrap">
-  <a class="wordmark" href="#top">Triple 14</a>
+  <a class="wordmark" href="#top">The <em>Hot</em> Box</a>
   <div class="navlinks">
     <a href="#brief">Today's brief</a>
     <a href="#products">Products</a>
@@ -318,33 +318,6 @@
         <a class="docket-link" href="products/demurrage/">Open the demurrage</a>
     <!-- LATEST_PRODUCT_DEMURRAGE_END -->
       </div>
-      <div class="product-card">
-        <!-- LATEST_PRODUCT_CVE_START -->
-    <div class="product-head">
-          <span class="mono">Product · cve · 2026-09-14</span>
-        </div>
-        <h3>CVE Watch</h3>
-        <a class="docket-link" href="products/cve/">Open the cve</a>
-    <!-- LATEST_PRODUCT_CVE_END -->
-      </div>
-      <div class="product-card">
-        <!-- LATEST_PRODUCT_AI-SUPPLY-CHAIN_START -->
-    <div class="product-head">
-          <span class="mono">Product · ai-supply-chain · 2026-09-14</span>
-        </div>
-        <h3>AI Supply Chain Watch</h3>
-        <a class="docket-link" href="products/ai-supply-chain/">Open the ai-supply-chain</a>
-    <!-- LATEST_PRODUCT_AI-SUPPLY-CHAIN_END -->
-      </div>
-    <div class="product-card">
-      <!-- LATEST_PRODUCT_ISSUER-WATCH_START -->
-    <div class="product-head">
-          <span class="mono">Product · issuer-watch · 2026-09-24</span>
-        </div>
-        <h3>Issuer Watch — 2026-09-24</h3>
-        <a class="docket-link" href="products/issuer-watch/">Open the issuer-watch</a>
-    <!-- LATEST_PRODUCT_ISSUER-WATCH_END -->
-    </div>
     </div>
   </section>
 
@@ -404,51 +377,66 @@
   <section id="proof">
     <div class="moat">
       <p class="mono">The point, plainly</p>
-      <p class="big">Triple 14 runs on an <strong>append-only ledger</strong>. Every
+      <p class="big">The Hot Box runs on an <strong>append-only ledger</strong>. Every
         brief is recorded. If a brief doesn't fire, <a href="proof/">this page says so</a>.
         That's the whole pitch — you're not buying a promise, you're buying a record.</p>
       <p class="note">Live status — brief history, missed runs, daemon heartbeat — generated
-        from the ledger, not from us telling you things went fine.</p>
+        from the ledger, not from us telling you things went fine. · An agency of Triple 14.</p>
     </div>
   </section>
 
   <section id="pricing">
-    <p class="kicker">Pricing — not for sale until the desk is daily</p>
-    <h2>The brief is free until it earns a price.</h2>
-    <p class="sub">Intended founding price $99/mo (5 slots, locked) and standard
-      $199/mo. Those open after <strong>five consecutive ledger-verified mornings</strong>.
-      Until then there is no checkout — get the brief by email or Telegram, no card.</p>
+    <p class="kicker">Pricing — the founding pilot is open</p>
+    <h2>Buy the record before the price does.</h2>
+    <p class="sub">The desk runs daily and the ledger proves it. Founding pilot
+      <strong>$50/mo, locked for the first five</strong> — then $99, then $199.
+      Still not sure? Try two weeks free first. No card either way.</p>
     <div class="plans">
       <div class="plan featured">
-        <span class="tag">Now</span>
-        <h3>Free while we prove the desk</h3>
-        <div class="price">$0<span> until five verified mornings</span></div>
-        <p class="desc">Same brief, same ledger. Paid founding slots stay closed
-          until the proof page shows a current freight brief five days running.</p>
+        <span class="tag">Now · 5 slots</span>
+        <h3>Founding pilot</h3>
+        <div class="price">$50<span> /mo, locked</span></div>
+        <p class="desc">The brief is already live — this week's freight, ports and
+          service runs are ledger-verified on <a href="proof/">Proof</a>. This is the
+          founding rate, yours for as long as you stay.</p>
+        <ul>
+          <li>Daily brief by Email + Telegram</li>
+          <li>Founding rate locked for life</li>
+          <li>Every brief hash-verified on Proof</li>
+          <li>Miss a run and it's published, not hidden</li>
+        </ul>
+        <a class="btn btn-primary" href="mailto:desk@watchdesk.io?subject=Founding%20pilot%20—%20The%20Hot%20Box">Start the pilot</a>
+      </div>
+      <div class="plan">
+        <span class="tag">Try first</span>
+        <h3>Two weeks free</h3>
+        <div class="price">$0<span> /two weeks</span></div>
+        <p class="desc">Same brief, same ledger, no card. Read the record before
+          you buy it.</p>
         <ul>
           <li>Email + Telegram delivery</li>
           <li>No credit card</li>
           <li>The record is public on Proof</li>
         </ul>
-        <a class="btn btn-primary" href="#subscribe">Get the brief free</a>
+        <a class="btn btn-ghost" href="#subscribe">Get the brief free</a>
       </div>
       <div class="plan">
         <span class="tag">Later</span>
         <h3>Founding / standard</h3>
         <div class="price">$99–$199<span> /mo, when the desk is daily</span></div>
-        <p class="desc">Checkout links land here when Gumroad is live. Not before.</p>
+        <p class="desc">After five consecutive verified mornings the founding tier
+          re-opens at $99, standard at $199. Checkout lands here when it's live.</p>
         <ul>
           <li>Founding $99 locked for life (5 slots)</li>
           <li>Standard $199</li>
           <li>7-day refund on the first paid month</li>
         </ul>
-        <!-- GUMROAD_FOUNDING_LINK -->
-        <!-- GUMROAD_STANDARD_LINK -->
         <a class="btn btn-ghost" href="proof/">See the record first</a>
       </div>
     </div>
-    <p class="risk">No paid plan is on sale today. If a button asked you for money,
-      it was a mistake — <a href="proof/">the proof page is the product</a>.</p>
+    <p class="risk">A founding pilot runs on <strong>ten replies</strong> — the desk answers
+      every pilot email personally, on the record. If a run ever fails, the miss shows on
+      <a href="proof/">Proof</a> before you'd notice. Pilot is manual and small on purpose.</p>
   </section>
 
   <section id="subscribe">
@@ -472,12 +460,12 @@
 </main>
 
 <footer>
-  <span class="mono">Triple 14 — daily rail + freight intel</span>
-  <p>Free until five consecutive verified mornings. Then founding $99 / standard $199.</p>
+  <span class="mono">The Hot Box — daily rail + freight intel</span>
+  <p>Founding pilot $50 — five slots. Then $99 / standard $199 after five verified mornings.</p>
   <p>Questions: <a href="mailto:desk@watchdesk.io">desk@watchdesk.io</a> · <a href="archive/">Archive</a> · <a href="proof/">Proof &amp; ledger</a>
         ·
         <a href="feed.xml">RSS</a></p>
-  <p>© 2026 Triple 14</p>
+  <p>© 2026 The Hot Box · an agency of Triple 14</p>
 </footer>
 
 </body>

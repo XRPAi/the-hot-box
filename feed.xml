@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Triple 14 — daily rail + freight intelligence</title>
-    <link>https://xrpai.github.io/watchdesk/</link>
+    <title>The Hot Box — daily rail + freight intelligence</title>
+    <link>https://xrpai.github.io/the-hot-box/</link>
     <description>The morning brief for people who move freight: rates, service advisories, port congestion, regulatory. Published 07:17 ET, every claim cited.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Sep 2026 16:07:56 +0000</lastBuildDate>
-    <atom:link href="https://xrpai.github.io/watchdesk/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Thu, 24 Sep 2026 13:14:37 +0000</lastBuildDate>
+    <atom:link href="https://xrpai.github.io/the-hot-box/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Triple 14 — Monday, September 14, 2026</title>
-      <link>https://xrpai.github.io/watchdesk/briefs/freight-2026-09-14.md</link>
-      <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/freight-2026-09-14.md</guid>
+      <link>https://xrpai.github.io/the-hot-box/briefs/freight-2026-09-14.md</link>
+      <guid isPermaLink="true">https://xrpai.github.io/the-hot-box/briefs/freight-2026-09-14.md</guid>
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>freight</category>
       <description>The most recent AAR weekly data on the board is week 35 (ending Sept. 5): 533,545 total U.S. carloads and intermodal units, up 13.8% year over year, with intermodal at 299,148 units (+18.0%) and…</description>
     </item>
     <item>
       <title>Triple 14 — Monday, September 14, 2026</title>
-      <link>https://xrpai.github.io/watchdesk/briefs/ports-2026-09-14.md</link>
-      <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/ports-2026-09-14.md</guid>
+      <link>https://xrpai.github.io/the-hot-box/briefs/ports-2026-09-14.md</link>
+      <guid isPermaLink="true">https://xrpai.github.io/the-hot-box/briefs/ports-2026-09-14.md</guid>
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>ports</category>
       <description>No port-side data cleared verification this cycle. The only sourced operational intel available today is the rail/intermodal leg: U.S. rail traffic for the week ending September 5 (week 35) hit…</description>
     </item>
     <item>
       <title>North American Rail Service Disruption Brief</title>
-      <link>https://xrpai.github.io/watchdesk/briefs/disruptions-2026-09-14.md</link>
-      <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/disruptions-2026-09-14.md</guid>
+      <link>https://xrpai.github.io/the-hot-box/briefs/disruptions-2026-09-14.md</link>
+      <guid isPermaLink="true">https://xrpai.github.io/the-hot-box/briefs/disruptions-2026-09-14.md</guid>
       <pubDate>Mon, 14 Sep 2026 11:17:00 +0000</pubDate>
       <category>disruptions</category>
       <description>No corridor-level service status can be published to the VERIFY standard this cycle. The available source set consists entirely of Association of American Railroads weekly volume releases and…</description>
     </item>
     <item>
       <title>Triple 14 — Thursday, September 10, 2026</title>
-      <link>https://xrpai.github.io/watchdesk/briefs/freight-2026-09-10.md</link>
-      <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/freight-2026-09-10.md</guid>
+      <link>https://xrpai.github.io/the-hot-box/briefs/freight-2026-09-10.md</link>
+      <guid isPermaLink="true">https://xrpai.github.io/the-hot-box/briefs/freight-2026-09-10.md</guid>
       <pubDate>Thu, 10 Sep 2026 11:17:00 +0000</pubDate>
       <category>freight</category>
       <description>STB service data for the week ending 2026-09-09 is in the pack (Thursday drop) [2]. AAR weekly for the week ending 2026-09-05: US total 533,545 carloads and intermodal units, +13.8% year over year;…</description>
     </item>
     <item>
       <title>The Watch Desk — Friday, August 14, 2026</title>
-      <link>https://xrpai.github.io/watchdesk/briefs/freight-2026-08-14.md</link>
-      <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/freight-2026-08-14.md</guid>
+      <link>https://xrpai.github.io/the-hot-box/briefs/freight-2026-08-14.md</link>
+      <guid isPermaLink="true">https://xrpai.github.io/the-hot-box/briefs/freight-2026-08-14.md</guid>
       <pubDate>Fri, 14 Aug 2026 11:17:00 +0000</pubDate>
       <category>freight</category>
       <description>North American rail volumes remain robust through week 31 of 2026, with total traffic up 3.0% year-over-year [1]. Intermodal growth continues to outpace carloads, driven by a modal shift from…</description>
     </item>
     <item>
       <title>The Watch Desk — Thursday, August 13, 2026</title>
-      <link>https://xrpai.github.io/watchdesk/briefs/freight-2026-08-13.md</link>
-      <guid isPermaLink="true">https://xrpai.github.io/watchdesk/briefs/freight-2026-08-13.md</guid>
+      <link>https://xrpai.github.io/the-hot-box/briefs/freight-2026-08-13.md</link>
+      <guid isPermaLink="true">https://xrpai.github.io/the-hot-box/briefs/freight-2026-08-13.md</guid>
       <pubDate>Thu, 13 Aug 2026 11:17:00 +0000</pubDate>
       <category>freight</category>
       <description>U.S. rail volumes remain strong, with carloads up 2.7% and intermodal up 3.8% year-to-date, driving continued intermodal market expansion [2]. Shippers are advised to lock in intermodal rates now…</description>
