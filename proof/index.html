@@ -61,6 +61,7 @@
   tr:last-child td { border-bottom: none; }
   .ok { color: var(--ok); font-weight: 600; }
   .bad { color: var(--bad); font-weight: 600; }
+  .warn { color: var(--rail-ink); font-weight: 600; }
   .muted { color: var(--muted); }
   .meta { color: var(--muted); font-size: .88rem; margin-top: 2.5rem;
           border-top: 1px solid var(--line); padding-top: 1rem; }
@@ -89,13 +90,13 @@
   <p class="kicker">Every fire, on the record</p>
   <h2>Brief history</h2>
   <table>
-    <tr><th>Date</th><th>Topic</th><th>Integrity</th><th>Sources</th><th>Hash</th><th></th></tr>
-    <tr><td>2026-09-14</td><td>freight</td><td><span class="ok">✓ verified</span></td><td>5 · <span class="ok">5 snapshotted ✓</span></td><td><code>f2e30def95</code></td><td><a href="../briefs/freight-2026-09-14.md">read</a></td></tr>
-<tr><td>2026-09-14</td><td>ports</td><td><span class="ok">✓ verified</span></td><td>4 · <span class="ok">4 snapshotted ✓</span></td><td><code>452b35b3d2</code></td><td><a href="../briefs/ports-2026-09-14.md">read</a></td></tr>
-<tr><td>2026-09-14</td><td>disruptions</td><td><span class="ok">✓ verified</span></td><td>4 · <span class="ok">4 snapshotted ✓</span></td><td><code>fabb0ecff0</code></td><td><a href="../briefs/disruptions-2026-09-14.md">read</a></td></tr>
-<tr><td>2026-09-10</td><td>freight</td><td><span class="muted">unverified</span></td><td>3</td><td><code>2a29bfb74b</code></td><td><a href="../briefs/freight-2026-09-10.md">read</a></td></tr>
-<tr><td>2026-08-14</td><td>freight</td><td><span class="muted">unverified</span></td><td>9</td><td><code>28f23877e8</code></td><td><a href="../briefs/freight-2026-08-14.md">read</a></td></tr>
-<tr><td>2026-08-13</td><td>freight</td><td><span class="muted">unverified</span></td><td>10</td><td><code>9060317c85</code></td><td><a href="../briefs/freight-2026-08-13.md">read</a></td></tr>
+    <tr><th>Date</th><th>Topic</th><th>Integrity</th><th>Gate</th><th>Sources</th><th>Hash</th><th></th></tr>
+    <tr><td>2026-09-14</td><td>freight</td><td><span class="ok">hash-intact</span></td><td><span class="warn">FAIL (overridden)</span></td><td>5 · <span class="ok">5 snapshotted ✓</span></td><td><code>f2e30def95</code></td><td><a href="../briefs/freight-2026-09-14.md">read</a></td></tr>
+<tr><td>2026-09-14</td><td>ports</td><td><span class="ok">hash-intact</span></td><td><span class="warn">FAIL (overridden)</span></td><td>4 · <span class="ok">4 snapshotted ✓</span></td><td><code>452b35b3d2</code></td><td><a href="../briefs/ports-2026-09-14.md">read</a></td></tr>
+<tr><td>2026-09-14</td><td>disruptions</td><td><span class="ok">hash-intact</span></td><td><span class="warn">FAIL (overridden)</span></td><td>4 · <span class="ok">4 snapshotted ✓</span></td><td><code>fabb0ecff0</code></td><td><a href="../briefs/disruptions-2026-09-14.md">read</a></td></tr>
+<tr><td>2026-09-10</td><td>freight</td><td><span class="muted">unverified</span></td><td><span class="muted">not gated</span></td><td>3</td><td><code>2a29bfb74b</code></td><td><a href="../briefs/freight-2026-09-10.md">read</a></td></tr>
+<tr><td>2026-08-14</td><td>freight</td><td><span class="muted">unverified</span></td><td><span class="muted">not gated</span></td><td>9</td><td><code>28f23877e8</code></td><td><a href="../briefs/freight-2026-08-14.md">read</a></td></tr>
+<tr><td>2026-08-13</td><td>freight</td><td><span class="muted">unverified</span></td><td><span class="muted">not gated</span></td><td>10</td><td><code>9060317c85</code></td><td><a href="../briefs/freight-2026-08-13.md">read</a></td></tr>
 
   </table>
 
@@ -103,110 +104,110 @@
   <h2>Product artifacts</h2>
   <table>
     <tr><th>Date</th><th>Product</th><th>Integrity</th><th>Hash</th><th></th></tr>
-    <tr><td>2026-09-24</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>da7b2be19c</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-24</td><td>issuer-watch</td><td><span class="ok">✓ verified</span></td><td><code>3981fd1cea</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
-<tr><td>2026-09-24</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>d124ec3d4d</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-14</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>ee2b02caf4</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-14</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>166783979e</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-14</td><td>issuer-watch</td><td><span class="ok">✓ verified</span></td><td><code>2c94bd4616</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
-<tr><td>2026-09-14</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>d968ce5a48</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-14</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>fafa6990da</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-13</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>88cb76206c</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-13</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>b57891ed6e</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-13</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>e1a104d44d</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-13</td><td>issuer-watch</td><td><span class="ok">✓ verified</span></td><td><code>8e18a05af6</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
-<tr><td>2026-09-13</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>e710a3bd9c</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-12</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>127f55351f</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-12</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>202852de9f</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-12</td><td>issuer-watch</td><td><span class="ok">✓ verified</span></td><td><code>05647ddf58</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
-<tr><td>2026-09-12</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>5a0524c0d5</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-12</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>74ea18b497</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-11</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>a5aa229ac6</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-11</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>2430db7df7</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-11</td><td>scorecard</td><td><span class="ok">✓ verified</span></td><td><code>9fd0b9c0bd</code></td><td><a href="../products/scorecard/">open</a></td></tr>
-<tr><td>2026-09-11</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>20cbea34cd</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-11</td><td>issuer-watch</td><td><span class="ok">✓ verified</span></td><td><code>914d4d94f2</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
-<tr><td>2026-09-11</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>700fb4d428</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-10</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>3c02a57835</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-10</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>0f863f0b73</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-10</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>bcb4fef064</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-10</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>76c14ce1ad</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-10</td><td>issuer-watch</td><td><span class="ok">✓ verified</span></td><td><code>909d4f228c</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
-<tr><td>2026-09-09</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>50ef4a635f</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-09</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>048a505bdc</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-09</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>856dee3fd3</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-09</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>647a5b37db</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-06</td><td>scorecard</td><td><span class="ok">✓ verified</span></td><td><code>f98ab42414</code></td><td><a href="../products/scorecard/">open</a></td></tr>
-<tr><td>2026-09-06</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>da61580eca</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-06</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>3717de825a</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-06</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>9c6b67da34</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-06</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>bd5c4a5dc7</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-03</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>3652c57ff6</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-09-03</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>51ebefeef0</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-09-03</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>61a6ff0bd4</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-09-03</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>5360a7c5d1</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-09-03</td><td>demurrage</td><td><span class="ok">✓ verified</span></td><td><code>01fdb02117</code></td><td><a href="../products/demurrage/">open</a></td></tr>
-<tr><td>2026-08-31</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>0148108689</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-31</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>f7c812bfdb</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-31</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>19f28cfce2</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-31</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>2f02bc2602</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-30</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>b494b92d1b</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-30</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>439a65654e</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-30</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>b48e74ecc8</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-30</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>baae8aff74</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-29</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>87a0493eb6</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-29</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>feff1a7cb6</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-29</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>a31a04edf8</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-29</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>5d2cfe8e9e</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-28</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>92f3fb0a1d</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-28</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>1116daa2b7</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-26</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>fb05687422</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-26</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>ec05f6de5a</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-26</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>efe684bf8f</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-26</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>f23893aaa0</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-25</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>1876680ccb</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-25</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>c15bdfaf82</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-25</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>8484fc9684</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-25</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>a4a13cdc41</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-24</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>4921a450b1</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-24</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>6e69727b1e</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-24</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>80eef280a5</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-24</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>559bcbe5d1</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-23</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>dc3c45dc00</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-23</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>49f2e74aa5</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-23</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>887d32c037</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-23</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>91e1d822c5</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-22</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>174ed74ecb</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-22</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>7f3037fa72</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-22</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>383299e2a6</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-22</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>f1fccf0121</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-21</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>426cd841e1</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-21</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>4dbc3bc658</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-21</td><td>scorecard</td><td><span class="ok">✓ verified</span></td><td><code>9c6517beb7</code></td><td><a href="../products/scorecard/">open</a></td></tr>
-<tr><td>2026-08-21</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>1ebd8f4f18</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-21</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>35ad8a2b8b</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-20</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>732a7e17e6</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-20</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>0f00af26db</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-20</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>338cbea24a</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-20</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>f717487413</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-19</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>98f1d1f294</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-19</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>812cc28bda</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-19</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>a64284515c</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-19</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>eb869d1e57</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-17</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>c61c743cb9</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-17</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>a73ad0e243</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-16</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>9b4779cd23</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-16</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>8ede9c0aca</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-15</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>f0b9bbb65b</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-15</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>3c4dbc7dae</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-15</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>8e6ff45085</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-15</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>7f6ad56253</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-14</td><td>regulatory</td><td><span class="ok">✓ verified</span></td><td><code>2df35090eb</code></td><td><a href="../products/regulatory/">open</a></td></tr>
-<tr><td>2026-08-14</td><td>intermodal</td><td><span class="ok">✓ verified</span></td><td><code>2f7ff93df6</code></td><td><a href="../products/intermodal/">open</a></td></tr>
-<tr><td>2026-08-14</td><td>demurrage</td><td><span class="ok">✓ verified</span></td><td><code>14779d8354</code></td><td><a href="../products/demurrage/">open</a></td></tr>
-<tr><td>2026-08-14</td><td>cve</td><td><span class="ok">✓ verified</span></td><td><code>a599165fbe</code></td><td><a href="../products/cve/">open</a></td></tr>
-<tr><td>2026-08-14</td><td>ai-supply-chain</td><td><span class="ok">✓ verified</span></td><td><code>d2ac0fc87a</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
-<tr><td>2026-08-14</td><td>scorecard</td><td><span class="ok">✓ verified</span></td><td><code>4697f49d8d</code></td><td><a href="../products/scorecard/">open</a></td></tr>
+    <tr><td>2026-09-24</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>da7b2be19c</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-24</td><td>issuer-watch</td><td><span class="ok">hash-intact</span></td><td><code>3981fd1cea</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
+<tr><td>2026-09-24</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>d124ec3d4d</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-14</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>ee2b02caf4</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-14</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>166783979e</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-14</td><td>issuer-watch</td><td><span class="ok">hash-intact</span></td><td><code>2c94bd4616</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
+<tr><td>2026-09-14</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>d968ce5a48</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-14</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>fafa6990da</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-13</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>88cb76206c</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-13</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>b57891ed6e</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-13</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>e1a104d44d</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-13</td><td>issuer-watch</td><td><span class="ok">hash-intact</span></td><td><code>8e18a05af6</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
+<tr><td>2026-09-13</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>e710a3bd9c</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-12</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>127f55351f</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-12</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>202852de9f</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-12</td><td>issuer-watch</td><td><span class="ok">hash-intact</span></td><td><code>05647ddf58</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
+<tr><td>2026-09-12</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>5a0524c0d5</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-12</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>74ea18b497</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-11</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>a5aa229ac6</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-11</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>2430db7df7</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-11</td><td>scorecard</td><td><span class="ok">hash-intact</span></td><td><code>9fd0b9c0bd</code></td><td><a href="../products/scorecard/">open</a></td></tr>
+<tr><td>2026-09-11</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>20cbea34cd</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-11</td><td>issuer-watch</td><td><span class="ok">hash-intact</span></td><td><code>914d4d94f2</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
+<tr><td>2026-09-11</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>700fb4d428</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-10</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>3c02a57835</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-10</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>0f863f0b73</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-10</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>bcb4fef064</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-10</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>76c14ce1ad</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-10</td><td>issuer-watch</td><td><span class="ok">hash-intact</span></td><td><code>909d4f228c</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
+<tr><td>2026-09-09</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>50ef4a635f</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-09</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>048a505bdc</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-09</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>856dee3fd3</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-09</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>647a5b37db</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-06</td><td>scorecard</td><td><span class="ok">hash-intact</span></td><td><code>f98ab42414</code></td><td><a href="../products/scorecard/">open</a></td></tr>
+<tr><td>2026-09-06</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>da61580eca</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-06</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>3717de825a</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-06</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>9c6b67da34</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-06</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>bd5c4a5dc7</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-03</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>3652c57ff6</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-09-03</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>51ebefeef0</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-09-03</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>61a6ff0bd4</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-09-03</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>5360a7c5d1</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-09-03</td><td>demurrage</td><td><span class="ok">hash-intact</span></td><td><code>01fdb02117</code></td><td><a href="../products/demurrage/">open</a></td></tr>
+<tr><td>2026-08-31</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>0148108689</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-31</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>f7c812bfdb</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-31</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>19f28cfce2</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-31</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>2f02bc2602</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-30</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>b494b92d1b</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-30</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>439a65654e</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-30</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>b48e74ecc8</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-30</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>baae8aff74</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-29</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>87a0493eb6</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-29</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>feff1a7cb6</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-29</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>a31a04edf8</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-29</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>5d2cfe8e9e</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-28</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>92f3fb0a1d</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-28</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>1116daa2b7</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-26</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>fb05687422</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-26</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>ec05f6de5a</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-26</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>efe684bf8f</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-26</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>f23893aaa0</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-25</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>1876680ccb</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-25</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>c15bdfaf82</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-25</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>8484fc9684</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-25</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>a4a13cdc41</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-24</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>4921a450b1</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-24</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>6e69727b1e</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-24</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>80eef280a5</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-24</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>559bcbe5d1</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-23</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>dc3c45dc00</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-23</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>49f2e74aa5</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-23</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>887d32c037</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-23</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>91e1d822c5</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-22</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>174ed74ecb</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-22</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>7f3037fa72</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-22</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>383299e2a6</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-22</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>f1fccf0121</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-21</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>426cd841e1</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-21</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>4dbc3bc658</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-21</td><td>scorecard</td><td><span class="ok">hash-intact</span></td><td><code>9c6517beb7</code></td><td><a href="../products/scorecard/">open</a></td></tr>
+<tr><td>2026-08-21</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>1ebd8f4f18</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-21</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>35ad8a2b8b</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-20</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>732a7e17e6</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-20</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>0f00af26db</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-20</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>338cbea24a</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-20</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>f717487413</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-19</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>98f1d1f294</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-19</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>812cc28bda</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-19</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>a64284515c</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-19</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>eb869d1e57</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-17</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>c61c743cb9</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-17</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>a73ad0e243</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-16</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>9b4779cd23</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-16</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>8ede9c0aca</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-15</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>f0b9bbb65b</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-15</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>3c4dbc7dae</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-15</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>8e6ff45085</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-15</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>7f6ad56253</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-14</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>2df35090eb</code></td><td><a href="../products/regulatory/">open</a></td></tr>
+<tr><td>2026-08-14</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>2f7ff93df6</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+<tr><td>2026-08-14</td><td>demurrage</td><td><span class="ok">hash-intact</span></td><td><code>14779d8354</code></td><td><a href="../products/demurrage/">open</a></td></tr>
+<tr><td>2026-08-14</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>a599165fbe</code></td><td><a href="../products/cve/">open</a></td></tr>
+<tr><td>2026-08-14</td><td>ai-supply-chain</td><td><span class="ok">hash-intact</span></td><td><code>d2ac0fc87a</code></td><td><a href="../products/ai-supply-chain/">open</a></td></tr>
+<tr><td>2026-08-14</td><td>scorecard</td><td><span class="ok">hash-intact</span></td><td><code>4697f49d8d</code></td><td><a href="../products/scorecard/">open</a></td></tr>
 
   </table>
 
@@ -232,13 +233,15 @@
   <p class="kicker">The machine, alive</p>
   <h2>Daemon heartbeat</h2>
   <p><span class="ok">daemon alive</span></p>
-  <p class="muted" style="font-size:.85rem">Last confirmed alive: <code>2026-09-24 14:15 UTC</code></p>
+  <p class="muted" style="font-size:.85rem">Last confirmed alive: <code>2026-09-24 14:35 UTC</code></p>
 
   <p class="meta">
     Ledger: <code>3424</code> append-only events ·
-    <code>3</code> briefs hash-verified ·
+    <code>3</code> briefs hash-intact ·
+    <code>0</code> gate PASS ·
+    <code>3</code> FAIL overridden ·
     <code>3</code> pre-ledger
-    Generated 2026-09-24 14:17 UTC
+    Generated 2026-09-24 14:38 UTC
   </p>
 </main>
 </body>
