@@ -104,7 +104,8 @@
   <h2>Product artifacts</h2>
   <table>
     <tr><th>Date</th><th>Product</th><th>Integrity</th><th>Hash</th><th></th></tr>
-    <tr><td>2026-09-24</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>da7b2be19c</code></td><td><a href="../products/intermodal/">open</a></td></tr>
+    <tr><td>2026-09-25</td><td>scorecard</td><td><span class="ok">hash-intact</span></td><td><code>9b28552705</code></td><td><a href="../products/scorecard/">open</a></td></tr>
+<tr><td>2026-09-24</td><td>intermodal</td><td><span class="ok">hash-intact</span></td><td><code>da7b2be19c</code></td><td><a href="../products/intermodal/">open</a></td></tr>
 <tr><td>2026-09-24</td><td>issuer-watch</td><td><span class="ok">hash-intact</span></td><td><code>3981fd1cea</code></td><td><a href="../products/issuer-watch/">open</a></td></tr>
 <tr><td>2026-09-24</td><td>regulatory</td><td><span class="ok">hash-intact</span></td><td><code>d124ec3d4d</code></td><td><a href="../products/regulatory/">open</a></td></tr>
 <tr><td>2026-09-14</td><td>cve</td><td><span class="ok">hash-intact</span></td><td><code>ee2b02caf4</code></td><td><a href="../products/cve/">open</a></td></tr>
@@ -216,9 +217,9 @@
   <p class="muted" style="margin:0 0 0.8rem">Did a brief land on the public site — not just whether cron fired.</p>
   <table>
     <tr><th>Topic</th><th>Status</th><th>Detail</th></tr>
-    <tr><td class="bad">freight</td><td class="bad">10 days gap</td><td>last public brief 2026-09-14 — expected 2026-09-24</td></tr>
-<tr><td class="bad">ports</td><td class="bad">10 days gap</td><td>last public brief 2026-09-14 — expected 2026-09-24</td></tr>
-<tr><td class="bad">disruptions</td><td class="bad">10 days gap</td><td>last public brief 2026-09-14 — expected 2026-09-24</td></tr>
+    <tr><td class="bad">freight</td><td class="bad">11 days gap</td><td>last public brief 2026-09-14 — expected 2026-09-25</td></tr>
+<tr><td class="bad">ports</td><td class="bad">11 days gap</td><td>last public brief 2026-09-14 — expected 2026-09-25</td></tr>
+<tr><td class="bad">disruptions</td><td class="bad">11 days gap</td><td>last public brief 2026-09-14 — expected 2026-09-25</td></tr>
 
   </table>
 
@@ -226,22 +227,25 @@
   <h2>Missed runs</h2>
   <table>
     <tr><th>Schedule</th><th>Expected</th><th>Last run</th></tr>
-    <tr><td colspan="3" class="muted">No scheduler fire misses.</td></tr>
+    <tr><td class="bad">research-freight</td><td>expected 2026-09-25T07:17:00-04:00</td><td>last ran 2026-09-14T11:43:36.665089+00:00</td></tr>
+<tr><td class="bad">research-ports</td><td>expected 2026-09-25T06:07:00-04:00</td><td>last ran 2026-09-14T11:45:53.060785+00:00</td></tr>
+<tr><td class="bad">product-scorecard</td><td>expected 2026-09-25T08:47:00-04:00</td><td>last ran 2026-09-11T12:47:34.237165+00:00</td></tr>
+<tr><td class="bad">product-intermodal</td><td>expected 2026-09-25T08:17:00-04:00</td><td>last ran 2026-09-24T12:17:10.904611+00:00</td></tr>
 
   </table>
 
   <p class="kicker">The machine, alive</p>
   <h2>Daemon heartbeat</h2>
   <p><span class="ok">daemon alive</span></p>
-  <p class="muted" style="font-size:.85rem">Last confirmed alive: <code>2026-09-24 14:35 UTC</code></p>
+  <p class="muted" style="font-size:.85rem">Last confirmed alive: <code>2026-09-25 14:50 UTC</code></p>
 
   <p class="meta">
-    Ledger: <code>3424</code> append-only events ·
+    Ledger: <code>3491</code> append-only events ·
     <code>3</code> briefs hash-intact ·
     <code>0</code> gate PASS ·
     <code>3</code> FAIL overridden ·
     <code>3</code> pre-ledger
-    Generated 2026-09-24 14:38 UTC
+    Generated 2026-09-25 14:54 UTC
   </p>
 </main>
 </body>
